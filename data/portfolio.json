@@ -1,362 +1,187 @@
 [
   {
-    "id": "luxury-penthouse-mumbai",
-    "title": "Luxury Penthouse in Mumbai",
+    "id": "luxury-living-room-design",
+    "title": "Luxury Living Room Design",
     "category": "interior",
-    "description": "A sophisticated 4-bedroom penthouse featuring contemporary design with traditional Indian elements. The space combines luxury materials like marble and brass with modern functionality.",
+    "description": "A sophisticated living room featuring contemporary design with premium finishes. The space combines luxury materials with modern functionality and comfort.",
     "images": [
       {
-        "src": "assets/images/portfolio/penthouse-mumbai-1.jpg",
-        "alt": "Luxury penthouse living room with marble flooring",
-        "thumbnail": "assets/images/portfolio/thumbs/penthouse-mumbai-1-thumb.jpg"
+        "src": "assets/images/liveing room design.jpg",
+        "alt": "Luxury living room with premium finishes and modern furniture",
+        "thumbnail": "assets/images/liveing room design.jpg"
       },
       {
-        "src": "assets/images/portfolio/penthouse-mumbai-2.jpg",
-        "alt": "Modern kitchen with brass accents",
-        "thumbnail": "assets/images/portfolio/thumbs/penthouse-mumbai-2-thumb.jpg"
+        "src": "assets/images/liveing room design2.jpg",
+        "alt": "Alternative living room layout with elegant seating",
+        "thumbnail": "assets/images/liveing room design2.jpg"
       },
       {
-        "src": "assets/images/portfolio/penthouse-mumbai-3.jpg",
-        "alt": "Master bedroom with city views",
-        "thumbnail": "assets/images/portfolio/thumbs/penthouse-mumbai-3-thumb.jpg"
+        "src": "assets/images/liveing area.jpg",
+        "alt": "Living area with open floor plan design",
+        "thumbnail": "assets/images/liveing area.jpg"
       }
     ],
     "details": {
       "location": "Mumbai, Maharashtra",
       "year": "2024",
-      "area": "3,500 sq ft",
+      "area": "1,200 sq ft",
       "client": "Private Residence"
     },
     "featured": true
   },
   {
-    "id": "modern-villa-gurgaon",
-    "title": "Modern Villa in Gurgaon",
-    "category": "exterior",
-    "description": "A stunning contemporary villa with clean lines and expansive glass facades. The design emphasizes indoor-outdoor living with landscaped gardens and water features.",
-    "images": [
-      {
-        "src": "assets/images/portfolio/villa-gurgaon-1.jpg",
-        "alt": "Modern villa exterior with glass facades",
-        "thumbnail": "assets/images/portfolio/thumbs/villa-gurgaon-1-thumb.jpg"
-      },
-      {
-        "src": "assets/images/portfolio/villa-gurgaon-2.jpg",
-        "alt": "Villa entrance with water feature",
-        "thumbnail": "assets/images/portfolio/thumbs/villa-gurgaon-2-thumb.jpg"
-      },
-      {
-        "src": "assets/images/portfolio/villa-gurgaon-3.jpg",
-        "alt": "Landscaped garden and pool area",
-        "thumbnail": "assets/images/portfolio/thumbs/villa-gurgaon-3-thumb.jpg"
-      }
-    ],
-    "details": {
-      "location": "Gurgaon, Haryana",
-      "year": "2023",
-      "area": "8,000 sq ft",
-      "client": "Private Villa"
-    },
-    "featured": true
-  },
-  {
-    "id": "boutique-hotel-design",
-    "title": "Boutique Hotel Interior",
+    "id": "modern-kitchen-design",
+    "title": "Modern Kitchen Design",
     "category": "interior",
-    "description": "Luxury boutique hotel featuring 50 rooms with bespoke furniture and artwork. Each space tells a unique story while maintaining cohesive design language throughout.",
+    "description": "A stunning contemporary kitchen with clean lines and premium appliances. Features custom cabinetry, stone countertops, and innovative storage solutions.",
     "images": [
       {
-        "src": "assets/images/portfolio/hotel-lobby-1.jpg",
-        "alt": "Boutique hotel lobby with marble reception",
-        "thumbnail": "assets/images/portfolio/thumbs/hotel-lobby-1-thumb.jpg"
-      },
-      {
-        "src": "assets/images/portfolio/hotel-room-1.jpg",
-        "alt": "Luxury hotel room with custom furniture",
-        "thumbnail": "assets/images/portfolio/thumbs/hotel-room-1-thumb.jpg"
-      },
-      {
-        "src": "assets/images/portfolio/hotel-restaurant-1.jpg",
-        "alt": "Hotel restaurant with artistic lighting",
-        "thumbnail": "assets/images/portfolio/thumbs/hotel-restaurant-1-thumb.jpg"
+        "src": "assets/images/kitchen design.jpg",
+        "alt": "Modern kitchen with premium appliances and stone countertops",
+        "thumbnail": "assets/images/kitchen design.jpg"
       }
     ],
     "details": {
-      "location": "Jaipur, Rajasthan",
-      "year": "2023",
-      "area": "25,000 sq ft",
-      "client": "Heritage Hotels"
+      "location": "Delhi, India",
+      "year": "2024",
+      "area": "400 sq ft",
+      "client": "Luxury Apartment"
     },
     "featured": true
   },
   {
-    "id": "residential-complex-3d",
-    "title": "Residential Complex Visualization",
-    "category": "3d-model",
-    "description": "Comprehensive 3D visualization for a 200-unit residential complex. Includes detailed modeling of apartments, common areas, and landscape elements.",
+    "id": "elegant-dining-area",
+    "title": "Elegant Dining Area Design",
+    "category": "interior",
+    "description": "Sophisticated dining space featuring luxury furniture and artistic lighting. The design creates an intimate atmosphere perfect for entertaining guests.",
     "images": [
       {
-        "src": "assets/images/portfolio/residential-3d-1.jpg",
-        "alt": "3D rendering of residential complex exterior",
-        "thumbnail": "assets/images/portfolio/thumbs/residential-3d-1-thumb.jpg"
+        "src": "assets/images/dineing area design.jpg",
+        "alt": "Elegant dining area with luxury furniture and artistic lighting",
+        "thumbnail": "assets/images/dineing area design.jpg"
       },
       {
-        "src": "assets/images/portfolio/residential-3d-2.jpg",
-        "alt": "3D interior visualization of apartment",
-        "thumbnail": "assets/images/portfolio/thumbs/residential-3d-2-thumb.jpg"
-      },
+        "src": "assets/images/dineing area design2.jpg",
+        "alt": "Alternative dining area layout with premium table setting",
+        "thumbnail": "assets/images/dineing area design2.jpg"
+      }
+    ],
+    "details": {
+      "location": "Bangalore, Karnataka",
+      "year": "2024",
+      "area": "300 sq ft",
+      "client": "Private Residence"
+    },
+    "featured": true
+  },
+  {
+    "id": "luxury-bedroom-suite",
+    "title": "Luxury Bedroom Suite",
+    "category": "interior",
+    "description": "Tranquil bedroom design with premium materials and sophisticated color palette. Features custom built-ins and luxurious textiles for ultimate comfort.",
+    "images": [
       {
-        "src": "assets/images/portfolio/residential-3d-3.jpg",
-        "alt": "3D aerial view of the complex",
-        "thumbnail": "assets/images/portfolio/thumbs/residential-3d-3-thumb.jpg"
+        "src": "assets/images/bedroom design.jpg",
+        "alt": "Luxury bedroom suite with premium materials and custom built-ins",
+        "thumbnail": "assets/images/bedroom design.jpg"
       }
     ],
     "details": {
       "location": "Pune, Maharashtra",
       "year": "2024",
-      "area": "15 acres",
-      "client": "Real Estate Developer"
+      "area": "450 sq ft",
+      "client": "Master Suite"
     },
-    "featured": false
+    "featured": true
   },
   {
-    "id": "commercial-office-design",
-    "title": "Corporate Office Design",
+    "id": "architectural-stairs-design",
+    "title": "Architectural Stairs Design",
     "category": "interior",
-    "description": "Modern corporate office design for a tech company featuring flexible workspaces, collaboration zones, and wellness areas promoting productivity and employee well-being.",
+    "description": "Stunning architectural staircase featuring modern design elements and premium materials. A masterpiece that serves as both functional element and artistic centerpiece.",
     "images": [
       {
-        "src": "assets/images/portfolio/office-lobby-1.jpg",
-        "alt": "Modern office lobby with branded elements",
-        "thumbnail": "assets/images/portfolio/thumbs/office-lobby-1-thumb.jpg"
-      },
-      {
-        "src": "assets/images/portfolio/office-workspace-1.jpg",
-        "alt": "Open workspace with natural lighting",
-        "thumbnail": "assets/images/portfolio/thumbs/office-workspace-1-thumb.jpg"
-      },
-      {
-        "src": "assets/images/portfolio/office-meeting-1.jpg",
-        "alt": "Glass-walled meeting rooms",
-        "thumbnail": "assets/images/portfolio/thumbs/office-meeting-1-thumb.jpg"
-      }
-    ],
-    "details": {
-      "location": "Bangalore, Karnataka",
-      "year": "2023",
-      "area": "12,000 sq ft",
-      "client": "Tech Solutions Inc."
-    },
-    "featured": false
-  },
-  {
-    "id": "heritage-restoration",
-    "title": "Heritage Building Restoration",
-    "category": "exterior",
-    "description": "Careful restoration of a 100-year-old heritage building, preserving original architectural elements while adding modern amenities and safety features.",
-    "images": [
-      {
-        "src": "assets/images/portfolio/heritage-exterior-1.jpg",
-        "alt": "Restored heritage building facade",
-        "thumbnail": "assets/images/portfolio/thumbs/heritage-exterior-1-thumb.jpg"
-      },
-      {
-        "src": "assets/images/portfolio/heritage-interior-1.jpg",
-        "alt": "Restored heritage interior with original features",
-        "thumbnail": "assets/images/portfolio/thumbs/heritage-interior-1-thumb.jpg"
-      },
-      {
-        "src": "assets/images/portfolio/heritage-detail-1.jpg",
-        "alt": "Detailed restoration work on heritage elements",
-        "thumbnail": "assets/images/portfolio/thumbs/heritage-detail-1-thumb.jpg"
-      }
-    ],
-    "details": {
-      "location": "Delhi, India",
-      "year": "2023",
-      "area": "18,000 sq ft",
-      "client": "Heritage Foundation"
-    },
-    "featured": false
-  },
-  {
-    "id": "master-plan-township",
-    "title": "Township Master Plan",
-    "category": "site-plan",
-    "description": "Comprehensive master planning for a 500-acre township including residential zones, commercial areas, recreational facilities, and infrastructure planning.",
-    "images": [
-      {
-        "src": "assets/images/portfolio/township-plan-1.jpg",
-        "alt": "Master plan layout of the township",
-        "thumbnail": "assets/images/portfolio/thumbs/township-plan-1-thumb.jpg"
-      },
-      {
-        "src": "assets/images/portfolio/township-zones-1.jpg",
-        "alt": "Zoning diagram with land use planning",
-        "thumbnail": "assets/images/portfolio/thumbs/township-zones-1-thumb.jpg"
-      },
-      {
-        "src": "assets/images/portfolio/township-infrastructure-1.jpg",
-        "alt": "Infrastructure and utilities planning",
-        "thumbnail": "assets/images/portfolio/thumbs/township-infrastructure-1-thumb.jpg"
+        "src": "assets/images/stairs design.jpg",
+        "alt": "Architectural staircase with modern design and premium materials",
+        "thumbnail": "assets/images/stairs design.jpg"
       }
     ],
     "details": {
       "location": "Chennai, Tamil Nadu",
       "year": "2024",
-      "area": "500 acres",
-      "client": "Urban Development Authority"
+      "area": "200 sq ft",
+      "client": "Luxury Villa"
     },
     "featured": true
   },
   {
-    "id": "luxury-retail-store",
-    "title": "Luxury Retail Store",
-    "category": "interior",
-    "description": "High-end retail store design for a luxury fashion brand. The space features custom display units, premium materials, and sophisticated lighting design.",
-    "images": [
-      {
-        "src": "assets/images/portfolio/retail-interior-1.jpg",
-        "alt": "Luxury retail store interior with custom displays",
-        "thumbnail": "assets/images/portfolio/thumbs/retail-interior-1-thumb.jpg"
-      },
-      {
-        "src": "assets/images/portfolio/retail-facade-1.jpg",
-        "alt": "Store facade with brand identity elements",
-        "thumbnail": "assets/images/portfolio/thumbs/retail-facade-1-thumb.jpg"
-      },
-      {
-        "src": "assets/images/portfolio/retail-fitting-1.jpg",
-        "alt": "Luxury fitting room area",
-        "thumbnail": "assets/images/portfolio/thumbs/retail-fitting-1-thumb.jpg"
-      }
-    ],
-    "details": {
-      "location": "New Delhi, India",
-      "year": "2023",
-      "area": "4,500 sq ft",
-      "client": "Luxury Fashion Brand"
-    },
-    "featured": false
-  },
-  {
-    "id": "eco-friendly-residence",
-    "title": "Eco-Friendly Residence",
+    "id": "luxury-garden-landscape",
+    "title": "Luxury Garden & Landscape",
     "category": "exterior",
-    "description": "Sustainable residential design incorporating green building practices, solar energy, rainwater harvesting, and natural ventilation systems.",
+    "description": "Beautifully designed garden space with lush landscaping and water features. Creates a serene outdoor sanctuary perfect for relaxation and entertainment.",
     "images": [
       {
-        "src": "assets/images/portfolio/eco-house-1.jpg",
-        "alt": "Eco-friendly house with solar panels",
-        "thumbnail": "assets/images/portfolio/thumbs/eco-house-1-thumb.jpg"
-      },
-      {
-        "src": "assets/images/portfolio/eco-garden-1.jpg",
-        "alt": "Sustainable garden and landscaping",
-        "thumbnail": "assets/images/portfolio/thumbs/eco-garden-1-thumb.jpg"
-      },
-      {
-        "src": "assets/images/portfolio/eco-interior-1.jpg",
-        "alt": "Natural materials in interior design",
-        "thumbnail": "assets/images/portfolio/thumbs/eco-interior-1-thumb.jpg"
+        "src": "assets/images/gardern area.jpg",
+        "alt": "Luxury garden landscape with lush plants and water features",
+        "thumbnail": "assets/images/gardern area.jpg"
       }
     ],
     "details": {
-      "location": "Kochi, Kerala",
+      "location": "Goa, India",
       "year": "2024",
-      "area": "3,200 sq ft",
-      "client": "Eco-Conscious Family"
+      "area": "2,000 sq ft",
+      "client": "Resort Villa"
     },
-    "featured": false
+    "featured": true
   },
   {
-    "id": "architectural-visualization-mall",
-    "title": "Shopping Mall 3D Visualization",
+    "id": "architectural-3d-visualization",
+    "title": "Architectural 3D Visualization",
     "category": "3d-model",
-    "description": "Detailed 3D architectural visualization for a large shopping mall project including interior spaces, retail units, food courts, and common areas.",
+    "description": "Advanced 3D architectural modeling and visualization showcasing photorealistic rendering capabilities. Detailed exterior and interior visualization for client presentations.",
     "images": [
       {
-        "src": "assets/images/portfolio/mall-3d-exterior-1.jpg",
-        "alt": "3D rendering of shopping mall exterior",
-        "thumbnail": "assets/images/portfolio/thumbs/mall-3d-exterior-1-thumb.jpg"
+        "src": "assets/images/3d Model.png",
+        "alt": "Advanced 3D architectural model with photorealistic rendering",
+        "thumbnail": "assets/images/3d Model.png"
       },
       {
-        "src": "assets/images/portfolio/mall-3d-atrium-1.jpg",
-        "alt": "3D visualization of mall atrium space",
-        "thumbnail": "assets/images/portfolio/thumbs/mall-3d-atrium-1-thumb.jpg"
-      },
-      {
-        "src": "assets/images/portfolio/mall-3d-retail-1.jpg",
-        "alt": "3D rendering of retail spaces",
-        "thumbnail": "assets/images/portfolio/thumbs/mall-3d-retail-1-thumb.jpg"
+        "src": "assets/images/3d-banner03.png",
+        "alt": "3D visualization banner showing architectural capabilities",
+        "thumbnail": "assets/images/3d-banner03.png"
       }
     ],
     "details": {
       "location": "Hyderabad, Telangana",
       "year": "2024",
-      "area": "2.5 million sq ft",
-      "client": "Commercial Developer"
-    },
-    "featured": false
-  },
-  {
-    "id": "urban-redevelopment-plan",
-    "title": "Urban Redevelopment Plan",
-    "category": "site-plan",
-    "description": "Comprehensive urban redevelopment plan for a 200-acre area including mixed-use development, transportation hubs, and public spaces.",
-    "images": [
-      {
-        "src": "assets/images/portfolio/urban-plan-1.jpg",
-        "alt": "Urban redevelopment master plan",
-        "thumbnail": "assets/images/portfolio/thumbs/urban-plan-1-thumb.jpg"
-      },
-      {
-        "src": "assets/images/portfolio/urban-transport-1.jpg",
-        "alt": "Transportation network planning",
-        "thumbnail": "assets/images/portfolio/thumbs/urban-transport-1-thumb.jpg"
-      },
-      {
-        "src": "assets/images/portfolio/urban-public-1.jpg",
-        "alt": "Public spaces and amenities planning",
-        "thumbnail": "assets/images/portfolio/thumbs/urban-public-1-thumb.jpg"
-      }
-    ],
-    "details": {
-      "location": "Kolkata, West Bengal",
-      "year": "2023",
-      "area": "200 acres",
-      "client": "Municipal Corporation"
+      "area": "Virtual Model",
+      "client": "Architectural Firm"
     },
     "featured": true
   },
   {
-    "id": "luxury-spa-resort",
-    "title": "Luxury Spa Resort",
+    "id": "premium-project-showcase",
+    "title": "Premium Project Showcase",
     "category": "interior",
-    "description": "Tranquil spa resort design focusing on wellness and relaxation. Features natural materials, water elements, and biophilic design principles.",
+    "description": "A comprehensive showcase of premium interior design elements featuring luxury materials, custom furniture, and sophisticated lighting design.",
     "images": [
       {
-        "src": "assets/images/portfolio/spa-lobby-1.jpg",
-        "alt": "Spa resort lobby with natural elements",
-        "thumbnail": "assets/images/portfolio/thumbs/spa-lobby-1-thumb.jpg"
+        "src": "assets/images/project-9-1000x731.jpg",
+        "alt": "Premium project showcase with luxury interior elements",
+        "thumbnail": "assets/images/project-9-1000x731.jpg"
       },
       {
-        "src": "assets/images/portfolio/spa-treatment-1.jpg",
-        "alt": "Spa treatment room with calming ambiance",
-        "thumbnail": "assets/images/portfolio/thumbs/spa-treatment-1-thumb.jpg"
-      },
-      {
-        "src": "assets/images/portfolio/spa-pool-1.jpg",
-        "alt": "Resort pool area with landscape views",
-        "thumbnail": "assets/images/portfolio/thumbs/spa-pool-1-thumb.jpg"
+        "src": "assets/images/download.png",
+        "alt": "Additional project showcase imagery",
+        "thumbnail": "assets/images/download.png"
       }
     ],
     "details": {
-      "location": "Goa, India",
-      "year": "2023",
-      "area": "15,000 sq ft",
-      "client": "Wellness Resort Group"
+      "location": "Mumbai, Maharashtra",
+      "year": "2024",
+      "area": "5,000 sq ft",
+      "client": "Luxury Development"
     },
-    "featured": false
+    "featured": true
   }
 ]
