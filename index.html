@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kutumbh Craft - Luxury Interior Design & Architecture</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Premium interior design and architectural services. Luxury residential and commercial spaces crafted with exceptional attention to detail.">
+    <meta name="keywords" content="luxury interior design, architecture, 3D modeling, site planning, premium design services">
+    <meta name="author" content="Kutumbh Craft">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Kutumbh Craft - Luxury Interior Design & Architecture">
+    <meta property="og:description" content="Premium interior design and architectural services. Luxury residential and commercial spaces crafted with exceptional attention to detail.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kutumbhcraft.com">
+    
+    <!-- Preload Critical Resources -->
+    <link rel="preload" href="assets/css/main.css" as="style">
+    <link rel="preload" href="assets/fonts/serif-main.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="assets/fonts/sans-main.woff2" as="font" type="font/woff2" crossorigin>
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/components.css">
+    <link rel="stylesheet" href="assets/css/animations.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="assets/images/icons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="assets/images/icons/apple-touch-icon.png">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-animation">
+            <div class="loading-logo">KC</div>
+            <div class="loading-text">Kutumbh Craft</div>
+            <div class="loading-progress">
+                <div class="progress-bar"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="nav" id="main-nav">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <span class="logo-text">Kutumbh Craft</span>
+            </a>
+            
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#portfolio" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#services" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#reviews" class="nav-link">Reviews</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+        </div>
+        
+        <!-- Scroll Progress Indicator -->
+        <div class="scroll-progress" id="scroll-progress"></div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="hero-background">
+                <picture>
+                    <source media="(min-width: 768px)" srcset="assets/images/hero/hero-desktop.webp" type="image/webp">
+                    <source media="(min-width: 768px)" srcset="assets/images/hero/hero-desktop.jpg" type="image/jpeg">
+                    <source srcset="assets/images/hero/hero-mobile.webp" type="image/webp">
+                    <img src="assets/images/hero/hero-mobile.jpg" alt="Luxury interior design showcase" class="hero-image">
+                </picture>
+                <div class="hero-overlay"></div>
+            </div>
+            
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="title-line">Crafting Luxury</span>
+                        <span class="title-line">Spaces</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        Premium interior design and architectural services that transform spaces into extraordinary experiences
+                    </p>
+                    <a href="#portfolio" class="hero-cta btn-primary">
+                        <span class="btn-text">Explore Our Work</span>
+                        <span class="btn-icon">→</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="hero-scroll-indicator">
+                <div class="scroll-mouse">
+                    <div class="scroll-wheel"></div>
+                </div>
+                <span class="scroll-text">Scroll to discover</span>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="portfolio">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Our Portfolio</h2>
+                    <p class="section-subtitle">
+                        Discover our collection of luxury interior designs, architectural projects, and 3D visualizations
+                    </p>
+                </div>
+                
+                <!-- Portfolio Filter -->
+                <div class="portfolio-filter">
+                    <button class="filter-btn active" data-filter="all">All Projects</button>
+                    <button class="filter-btn" data-filter="interior">Interior Design</button>
+                    <button class="filter-btn" data-filter="exterior">Exterior Design</button>
+                    <button class="filter-btn" data-filter="3d-model">3D Models</button>
+                    <button class="filter-btn" data-filter="site-plan">Site Plans</button>
+                </div>
+                
+                <!-- Portfolio Grid -->
+                <div class="portfolio-grid" id="portfolio-grid">
+                    <!-- Portfolio items will be populated by JavaScript -->
+                </div>
+                
+                <!-- Load More Button -->
+                <div class="portfolio-actions">
+                    <button class="btn-secondary" id="load-more-btn">
+                        <span class="btn-text">Load More Projects</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Our Services</h2>
+                    <p class="section-subtitle">
+                        Comprehensive design solutions from concept to completion
+                    </p>
+                </div>
+                
+                <div class="services-grid">
+                    <div class="service-card" data-service="interior">
+                        <div class="service-icon">
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                                <polyline points="9,22 9,12 15,12 15,22"></polyline>
+                            </svg>
+                        </div>
+                        <h3 class="service-title">Interior Design</h3>
+                        <p class="service-description">
+                            Luxurious and functional interior spaces that reflect your personality and lifestyle with premium materials and finishes.
+                        </p>
+                        <ul class="service-features">
+                            <li>Space Planning & Layout</li>
+                            <li>Custom Furniture Design</li>
+                            <li>Material & Finish Selection</li>
+                            <li>Lighting Design</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="service-card" data-service="exterior">
+                        <div class="service-icon">
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M12 2L2 7v10c0 5.55 3.84 10 9 11 5.16-1 9-5.45 9-11V7l-10-5z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="service-title">Exterior Design</h3>
+                        <p class="service-description">
+                            Stunning exterior facades and landscape designs that create impressive first impressions and enhance curb appeal.
+                        </p>
+                        <ul class="service-features">
+                            <li>Facade Design</li>
+                            <li>Landscape Architecture</li>
+                            <li>Outdoor Living Spaces</li>
+                            <li>Garden & Pool Design</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="service-card" data-service="architectural">
+                        <div class="service-icon">
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="service-title">Architectural Planning</h3>
+                        <p class="service-description">
+                            Comprehensive architectural planning and design services from initial concept to detailed construction drawings.
+                        </p>
+                        <ul class="service-features">
+                            <li>Site Analysis</li>
+                            <li>Floor Plan Design</li>
+                            <li>Building Code Compliance</li>
+                            <li>Construction Documentation</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="service-card" data-service="3d-modeling">
+                        <div class="service-icon">
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="service-title">3D Modeling & Visualization</h3>
+                        <p class="service-description">
+                            Photorealistic 3D renderings and virtual walkthroughs that bring your vision to life before construction begins.
+                        </p>
+                        <ul class="service-features">
+                            <li>3D Architectural Modeling</li>
+                            <li>Photorealistic Rendering</li>
+                            <li>Virtual Walkthroughs</li>
+                            <li>VR Experiences</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reviews Section -->
+        <section id="reviews" class="reviews">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Client Reviews</h2>
+                    <p class="section-subtitle">
+                        What our clients say about their experience working with Kutumbh Craft
+                    </p>
+                </div>
+                
+                <!-- Reviews Carousel -->
+                <div class="reviews-carousel" id="reviews-carousel">
+                    <div class="reviews-wrapper">
+                        <!-- Review items will be populated by JavaScript -->
+                    </div>
+                    
+                    <button class="carousel-btn carousel-prev" id="reviews-prev" aria-label="Previous review">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <polyline points="15,18 9,12 15,6"></polyline>
+                        </svg>
+                    </button>
+                    
+                    <button class="carousel-btn carousel-next" id="reviews-next" aria-label="Next review">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <polyline points="9,18 15,12 9,6"></polyline>
+                        </svg>
+                    </button>
+                </div>
+                
+                <div class="reviews-actions">
+                    <button class="btn-secondary" id="add-review-btn">
+                        <span class="btn-text">Share Your Experience</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <p class="section-subtitle">
+                        Ready to transform your space? Let's discuss your project
+                    </p>
+                </div>
+                
+                <div class="contact-content">
+                    <div class="contact-form-container">
+                        <form class="contact-form" id="contact-form">
+                            <div class="form-step active" data-step="1">
+                                <h3 class="form-step-title">Tell us about your project</h3>
+                                <div class="form-group">
+                                    <label for="project-type" class="form-label">Project Type</label>
+                                    <select id="project-type" name="projectType" class="form-select" required>
+                                        <option value="">Select project type</option>
+                                        <option value="interior">Interior Design</option>
+                                        <option value="exterior">Exterior Design</option>
+                                        <option value="architectural">Architectural Planning</option>
+                                        <option value="3d-modeling">3D Modeling & Visualization</option>
+                                        <option value="consultation">Design Consultation</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="project-budget" class="form-label">Budget Range</label>
+                                    <select id="project-budget" name="budget" class="form-select" required>
+                                        <option value="">Select budget range</option>
+                                        <option value="under-50k">Under ₹50,000</option>
+                                        <option value="50k-100k">₹50,000 - ₹1,00,000</option>
+                                        <option value="100k-500k">₹1,00,000 - ₹5,00,000</option>
+                                        <option value="500k-1m">₹5,00,000 - ₹10,00,000</option>
+                                        <option value="above-1m">Above ₹10,00,000</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="project-timeline" class="form-label">Project Timeline</label>
+                                    <select id="project-timeline" name="timeline" class="form-select" required>
+                                        <option value="">Select timeline</option>
+                                        <option value="asap">As soon as possible</option>
+                                        <option value="1-3-months">1-3 months</option>
+                                        <option value="3-6-months">3-6 months</option>
+                                        <option value="6-12-months">6-12 months</option>
+                                        <option value="flexible">Flexible</option>
+                                    </select>
+                                </div>
+                                <button type="button" class="btn-primary form-next">
+                                    <span class="btn-text">Next Step</span>
+                                    <span class="btn-icon">→</span>
+                                </button>
+                            </div>
+                            
+                            <div class="form-step" data-step="2">
+                                <h3 class="form-step-title">Your contact information</h3>
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label for="first-name" class="form-label">First Name</label>
+                                        <input type="text" id="first-name" name="firstName" class="form-input" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="last-name" class="form-label">Last Name</label>
+                                        <input type="text" id="last-name" name="lastName" class="form-input" required>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email" class="form-label">Email Address</label>
+                                    <input type="email" id="email" name="email" class="form-input" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone" class="form-label">Phone Number</label>
+                                    <input type="tel" id="phone" name="phone" class="form-input" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="location" class="form-label">Project Location</label>
+                                    <input type="text" id="location" name="location" class="form-input" placeholder="City, State" required>
+                                </div>
+                                <div class="form-actions">
+                                    <button type="button" class="btn-secondary form-prev">
+                                        <span class="btn-icon">←</span>
+                                        <span class="btn-text">Previous</span>
+                                    </button>
+                                    <button type="button" class="btn-primary form-next">
+                                        <span class="btn-text">Next Step</span>
+                                        <span class="btn-icon">→</span>
+                                    </button>
+                                </div>
+                            </div>
+                            
+                            <div class="form-step" data-step="3">
+                                <h3 class="form-step-title">Additional details</h3>
+                                <div class="form-group">
+                                    <label for="project-description" class="form-label">Project Description</label>
+                                    <textarea id="project-description" name="description" class="form-textarea" rows="5" placeholder="Tell us more about your vision, specific requirements, or any questions you have..."></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-checkbox">
+                                        <input type="checkbox" name="newsletter" value="yes">
+                                        <span class="checkbox-mark"></span>
+                                        <span class="checkbox-text">Subscribe to our newsletter for design inspiration and updates</span>
+                                    </label>
+                                </div>
+                                <div class="form-actions">
+                                    <button type="button" class="btn-secondary form-prev">
+                                        <span class="btn-icon">←</span>
+                                        <span class="btn-text">Previous</span>
+                                    </button>
+                                    <button type="submit" class="btn-primary form-submit">
+                                        <span class="btn-text">Send Message</span>
+                                        <span class="btn-icon">→</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg>
+                            </div>
+                            <div class="contact-details">
+                                <h4 class="contact-title">Visit Our Studio</h4>
+                                <p class="contact-text">123 Design Street<br>Luxury District, City 400001<br>India</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                                </svg>
+                            </div>
+                            <div class="contact-details">
+                                <h4 class="contact-title">Call Us</h4>
+                                <p class="contact-text">
+                                    <a href="tel:+919876543210" class="contact-link">+91 98765 43210</a><br>
+                                    <a href="tel:+919876543211" class="contact-link">+91 98765 43211</a>
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                    <polyline points="22,6 12,13 2,6"></polyline>
+                                </svg>
+                            </div>
+                            <div class="contact-details">
+                                <h4 class="contact-title">Email Us</h4>
+                                <p class="contact-text">
+                                    <a href="mailto:hello@kutumbhcraft.com" class="contact-link">hello@kutumbhcraft.com</a><br>
+                                    <a href="mailto:projects@kutumbhcraft.com" class="contact-link">projects@kutumbhcraft.com</a>
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-social">
+                            <h4 class="contact-title">Follow Us</h4>
+                            <div class="social-links">
+                                <a href="#" class="social-link" aria-label="Instagram">
+                                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                                    </svg>
+                                </a>
+                                <a href="#" class="social-link" aria-label="LinkedIn">
+                                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                        <rect x="2" y="9" width="4" height="12"></rect>
+                                        <circle cx="4" cy="4" r="2"></circle>
+                                    </svg>
+                                </a>
+                                <a href="#" class="social-link" aria-label="Pinterest">
+                                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                        <line x1="12" y1="2" x2="12" y2="22"></line>
+                                        <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                                    </svg>
+                                </a>
+                                <a href="#" class="social-link" aria-label="YouTube">
+                                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                        <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path>
+                                        <polygon points="9.75,15.02 15.5,11.75 9.75,8.48"></polygon>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-text">Kutumbh Craft</span>
+                    <p class="footer-tagline">Crafting luxury spaces that inspire</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4 class="footer-title">Services</h4>
+                        <ul class="footer-list">
+                            <li><a href="#services" class="footer-link">Interior Design</a></li>
+                            <li><a href="#services" class="footer-link">Exterior Design</a></li>
+                            <li><a href="#services" class="footer-link">Architectural Planning</a></li>
+                            <li><a href="#services" class="footer-link">3D Visualization</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-section">
+                        <h4 class="footer-title">Company</h4>
+                        <ul class="footer-list">
+                            <li><a href="#portfolio" class="footer-link">Portfolio</a></li>
+                            <li><a href="#reviews" class="footer-link">Reviews</a></li>
+                            <li><a href="#contact" class="footer-link">Contact</a></li>
+                            <li><a href="#" class="footer-link">Careers</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-section">
+                        <h4 class="footer-title">Legal</h4>
+                        <ul class="footer-list">
+                            <li><a href="#" class="footer-link">Privacy Policy</a></li>
+                            <li><a href="#" class="footer-link">Terms of Service</a></li>
+                            <li><a href="#" class="footer-link">Cookie Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    <p>&copy; 2024 Kutumbh Craft. All rights reserved.</p>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="social-link" aria-label="Instagram">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-link" aria-label="LinkedIn">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                            <rect x="2" y="9" width="4" height="12"></rect>
+                            <circle cx="4" cy="4" r="2"></circle>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modals -->
+    <!-- Portfolio Modal -->
+    <div id="portfolio-modal" class="modal" role="dialog" aria-labelledby="portfolio-modal-title" aria-hidden="true">
+        <div class="modal-backdrop" data-modal-close></div>
+        <div class="modal-container">
+            <div class="modal-header">
+                <h2 id="portfolio-modal-title" class="modal-title"></h2>
+                <button class="modal-close" data-modal-close aria-label="Close modal">
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+            <div class="modal-content">
+                <div class="portfolio-modal-gallery">
+                    <div class="gallery-main">
+                        <img id="modal-main-image" src="" alt="" class="gallery-main-image">
+                        <button class="gallery-nav gallery-prev" id="modal-prev" aria-label="Previous image">
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <polyline points="15,18 9,12 15,6"></polyline>
+                            </svg>
+                        </button>
+                        <button class="gallery-nav gallery-next" id="modal-next" aria-label="Next image">
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <polyline points="9,18 15,12 9,6"></polyline>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="gallery-thumbnails" id="modal-thumbnails">
+                        <!-- Thumbnails will be populated by JavaScript -->
+                    </div>
+                </div>
+                <div class="portfolio-modal-details">
+                    <div id="modal-project-details" class="project-details">
+                        <!-- Project details will be populated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Review Modal -->
+    <div id="review-modal" class="modal" role="dialog" aria-labelledby="review-modal-title" aria-hidden="true">
+        <div class="modal-backdrop" data-modal-close></div>
+        <div class="modal-container">
+            <div class="modal-header">
+                <h2 id="review-modal-title" class="modal-title">Share Your Experience</h2>
+                <button class="modal-close" data-modal-close aria-label="Close modal">
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+            <div class="modal-content">
+                <form id="review-form" class="review-form">
+                    <div class="form-group">
+                        <label for="review-name" class="form-label">Your Name</label>
+                        <input type="text" id="review-name" name="name" class="form-input" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="review-project" class="form-label">Project Type</label>
+                        <select id="review-project" name="projectType" class="form-select" required>
+                            <option value="">Select project type</option>
+                            <option value="Interior Design">Interior Design</option>
+                            <option value="Exterior Design">Exterior Design</option>
+                            <option value="Architectural Planning">Architectural Planning</option>
+                            <option value="3D Modeling">3D Modeling & Visualization</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Rating</label>
+                        <div class="rating-input">
+                            <input type="radio" id="star5" name="rating" value="5" required>
+                            <label for="star5" class="star">★</label>
+                            <input type="radio" id="star4" name="rating" value="4">
+                            <label for="star4" class="star">★</label>
+                            <input type="radio" id="star3" name="rating" value="3">
+                            <label for="star3" class="star">★</label>
+                            <input type="radio" id="star2" name="rating" value="2">
+                            <label for="star2" class="star">★</label>
+                            <input type="radio" id="star1" name="rating" value="1">
+                            <label for="star1" class="star">★</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="review-text" class="form-label">Your Review</label>
+                        <textarea id="review-text" name="review" class="form-textarea" rows="5" placeholder="Share your experience working with Kutumbh Craft..." required></textarea>
+                    </div>
+                    <div class="form-actions">
+                        <button type="button" class="btn-secondary" data-modal-close>Cancel</button>
+                        <button type="submit" class="btn-primary">
+                            <span class="btn-text">Submit Review</span>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript Modules -->
+    <script type="module" src="assets/js/main.js"></script>
+    <script type="module" src="assets/js/portfolio.js"></script>
+    <script type="module" src="assets/js/animations.js"></script>
+    <script type="module" src="assets/js/reviews.js"></script>
+</body>
+</html>
