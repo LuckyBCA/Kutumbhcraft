@@ -1,0 +1,102 @@
+[
+  {
+    "id": "review-1",
+    "clientName": "Rajesh Sharma",
+    "projectType": "Interior Design",
+    "rating": 5,
+    "review": "Kutumbh Craft transformed our Mumbai penthouse into a masterpiece. Their attention to detail and understanding of luxury design is unparalleled. Every space flows seamlessly, and the quality of materials used is exceptional. Highly recommended for anyone seeking premium interior design services.",
+    "date": "2024-01-15",
+    "approved": true,
+    "featured": true
+  },
+  {
+    "id": "review-2",
+    "clientName": "Priya Patel",
+    "projectType": "Architectural Planning",
+    "rating": 5,
+    "review": "Working with Kutumbh Craft on our villa project was an absolute pleasure. They listened to our vision and elevated it beyond our expectations. The architectural planning was thorough, and the execution was flawless. Our dream home is now a reality thanks to their expertise.",
+    "date": "2024-02-20",
+    "approved": true,
+    "featured": true
+  },
+  {
+    "id": "review-3",
+    "clientName": "Amit Gupta",
+    "projectType": "3D Modeling",
+    "rating": 5,
+    "review": "The 3D visualizations provided by Kutumbh Craft helped us make crucial design decisions before construction began. Their photorealistic renderings saved us time and money by identifying potential issues early. The team is professional and delivers on promises.",
+    "date": "2024-01-08",
+    "approved": true,
+    "featured": true
+  },
+  {
+    "id": "review-4",
+    "clientName": "Dr. Sunita Verma",
+    "projectType": "Interior Design",
+    "rating": 5,
+    "review": "Kutumbh Craft designed our clinic space with both aesthetics and functionality in mind. The result is a calming environment that our patients love. Their understanding of healthcare design requirements and ability to create healing spaces is remarkable.",
+    "date": "2023-12-12",
+    "approved": true,
+    "featured": false
+  },
+  {
+    "id": "review-5",
+    "clientName": "Rohit Khanna",
+    "projectType": "Exterior Design",
+    "rating": 5,
+    "review": "The exterior design of our resort was handled brilliantly by Kutumbh Craft. They managed to blend modern architecture with the natural landscape perfectly. The design has become a landmark in the area and attracts visitors just for its architectural beauty.",
+    "date": "2023-11-25",
+    "approved": true,
+    "featured": true
+  },
+  {
+    "id": "review-6",
+    "clientName": "Meera Singh",
+    "projectType": "Interior Design",
+    "rating": 5,
+    "review": "Our boutique hotel project was a challenging one, but Kutumbh Craft exceeded all expectations. Each room has its unique character while maintaining design cohesion throughout the property. Guests frequently compliment the interiors and ambiance.",
+    "date": "2023-10-30",
+    "approved": true,
+    "featured": false
+  },
+  {
+    "id": "review-7",
+    "clientName": "Vikram Reddy",
+    "projectType": "Architectural Planning",
+    "rating": 5,
+    "review": "The team at Kutumbh Craft helped us navigate complex zoning requirements and building codes for our commercial project. Their expertise in regulatory compliance and design innovation made the entire process smooth and successful.",
+    "date": "2023-09-18",
+    "approved": true,
+    "featured": false
+  },
+  {
+    "id": "review-8",
+    "clientName": "Kavita Joshi",
+    "projectType": "Interior Design",
+    "rating": 5,
+    "review": "Kutumbh Craft transformed our outdated office space into a modern, inspiring workplace. Employee productivity and satisfaction have noticeably improved since the redesign. The team understood our corporate culture and translated it into the design beautifully.",
+    "date": "2023-08-22",
+    "approved": true,
+    "featured": true
+  },
+  {
+    "id": "review-9",
+    "clientName": "Arjun Malhotra",
+    "projectType": "3D Modeling",
+    "rating": 5,
+    "review": "The virtual walkthrough created by Kutumbh Craft was instrumental in securing project approval from our board of directors. The level of detail and realism in their 3D models is impressive. It felt like we were actually walking through the completed building.",
+    "date": "2023-07-15",
+    "approved": true,
+    "featured": false
+  },
+  {
+    "id": "review-10",
+    "clientName": "Deepika Nair",
+    "projectType": "Exterior Design",
+    "rating": 5,
+    "review": "Our heritage building restoration was handled with utmost care and expertise by Kutumbh Craft. They preserved the historical significance while adding modern functionality. The project won a local architecture award, which speaks to their skill and dedication.",
+    "date": "2023-06-10",
+    "approved": true,
+    "featured": false
+  }
+]
