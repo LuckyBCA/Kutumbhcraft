@@ -440,7 +440,7 @@
    ============================================== */
 
 .contact {
-  background: linear-gradient(135deg, var(--background-light), #f8f8f8);
+  background: linear-gradient(135deg, var(--background-light) 0%, #f9f9f9 50%, var(--background-light) 100%);
 }
 
 .contact-content {
@@ -454,7 +454,8 @@
   background-color: var(--white);
   padding: var(--space-12);
   border-radius: var(--radius-2xl);
-  box-shadow: var(--shadow-luxury);
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(212, 175, 55, 0.1);
 }
 
 .contact-form {
