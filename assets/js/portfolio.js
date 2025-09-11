@@ -200,9 +200,8 @@ function getCategoryDisplayName(category) {
  * Get image URL with fallback
  */
 function getImageUrl(imagePath) {
-  // For demo purposes, return placeholder images
-  // In production, these would be actual image paths
-  return `https://picsum.photos/800/600?random=${Math.floor(Math.random() * 1000)}`;
+  // Return the actual image path
+  return imagePath;
 }
 
 /**
