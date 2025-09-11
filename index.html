@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/components.css">
     <link rel="stylesheet" href="assets/css/animations.css">
+    <link rel="stylesheet" href="assets/css/enhanced-styles.css">
     
     <!-- Favicon -->
     <link rel="icon" href="assets/images/icons/favicon.ico" type="image/x-icon">
@@ -62,6 +63,12 @@
                 <li class="nav-item">
                     <a href="#contact" class="nav-link">Contact</a>
                 </li>
+                <li class="nav-item">
+                    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+                        <span class="theme-icon sun-icon">☀️</span>
+                        <span class="theme-icon moon-icon">🌙</span>
+                    </button>
+                </li>
             </ul>
             
             <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
@@ -83,21 +90,25 @@
                 <picture>
                     <source media="(min-width: 768px)" srcset="assets/images/liveing room design2.jpg" type="image/jpeg">
                     <source srcset="assets/images/liveing room design.jpg" type="image/jpeg">
-                    <img src="assets/images/liveing room design2.jpg" alt="Luxury interior design showcase" class="hero-image">
+                    <img src="assets/images/liveing room design2.jpg" alt="Luxury interior design showcase" class="hero-image parallax-bg">
                 </picture>
                 <div class="hero-overlay"></div>
+                <!-- Particle System -->
+                <div class="particles-container" id="particles-hero">
+                    <canvas id="particles-canvas"></canvas>
+                </div>
             </div>
             
             <div class="hero-content">
                 <div class="hero-text">
                     <h1 class="hero-title">
-                        <span class="title-line">Crafting Luxury</span>
-                        <span class="title-line">Spaces</span>
+                        <span class="title-line animate-text" data-delay="0">Crafting Luxury</span>
+                        <span class="title-line animate-text" data-delay="200">Spaces</span>
                     </h1>
-                    <p class="hero-subtitle">
+                    <p class="hero-subtitle animate-text" data-delay="400">
                         Premium interior design and architectural services that transform spaces into extraordinary experiences
                     </p>
-                    <a href="#portfolio" class="hero-cta btn-primary">
+                    <a href="#portfolio" class="hero-cta btn-primary animate-text" data-delay="600">
                         <span class="btn-text">Explore Our Work</span>
                         <span class="btn-icon">→</span>
                     </a>
@@ -113,11 +124,11 @@
         </section>
 
         <!-- Portfolio Section -->
-        <section id="portfolio" class="portfolio">
+        <section id="portfolio" class="portfolio animate-on-scroll">
             <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Our Portfolio</h2>
-                    <p class="section-subtitle">
+                <div class="section-header stagger-child">
+                    <h2 class="section-title gradient-text">Our Portfolio</h2>
+                    <p class="section-subtitle stagger-child">
                         Discover our collection of luxury interior designs, architectural projects, and 3D visualizations
                     </p>
                 </div>
@@ -146,24 +157,24 @@
         </section>
 
         <!-- Services Section -->
-        <section id="services" class="services">
+        <section id="services" class="services animate-on-scroll">
             <div class="container">
                 <div class="section-header">
-                    <h2 class="section-title">Our Services</h2>
-                    <p class="section-subtitle">
+                    <h2 class="section-title gradient-text">Our Services</h2>
+                    <p class="section-subtitle stagger-child">
                         Comprehensive design solutions from concept to completion
                     </p>
                 </div>
                 
                 <div class="services-grid">
-                    <div class="service-card" data-service="interior">
-                        <div class="service-icon">
+                    <div class="service-card hover-lift" data-service="interior">
+                        <div class="service-icon stagger-child">
                             <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
                                 <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
                                 <polyline points="9,22 9,12 15,12 15,22"></polyline>
                             </svg>
                         </div>
-                        <h3 class="service-title">Interior Design</h3>
+                        <h3 class="service-title stagger-child">Interior Design</h3>
                         <p class="service-description">
                             Luxurious and functional interior spaces that reflect your personality and lifestyle with premium materials and finishes.
                         </p>
@@ -638,6 +649,7 @@
     <script type="module" src="assets/js/main.js"></script>
     <script type="module" src="assets/js/portfolio.js"></script>
     <script type="module" src="assets/js/animations.js"></script>
+    <script type="module" src="assets/js/enhanced-animations.js"></script>
     <script type="module" src="assets/js/reviews.js"></script>
 </body>
 </html>
